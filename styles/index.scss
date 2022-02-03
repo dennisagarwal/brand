@@ -1,0 +1,320 @@
+@use "./partials/variables" as *;
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;900&family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+}
+.bestThemePage {
+  // width:94.5rem;
+  background-color: $primary-color2;
+  height: 61.375rem;
+  margin: 0;
+  &__squareImageLeft {
+    position: absolute;
+    top: 14.625rem;
+    left: -1.4375rem;
+  }
+  &__squareImageMiddle {
+    position: absolute;
+    left: 712px;
+    top: 780px;
+  }
+  &__squareImageRight {
+    position: absolute;
+    left: 1310px;
+    top: 326px;
+    z-index: 10;
+  }
+  &__cornerTopRight {
+    height: 30.6875rem;
+    width: 30.6875rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(211, 161, 126, 0) 0%,
+      #d3a17e 100%
+    );
+  }
+  &__cornerLeftBottom {
+    height: 30.6875rem;
+    width: 30.6875rem;
+    position: absolute;
+    left: 2px;
+    top: 491px;
+    background: linear-gradient(
+      180deg,
+      rgba(211, 161, 126, 0) 0%,
+      #d3a17e 100%
+    );
+    z-index: 1;
+  }
+}
+.bestTheme {
+  width: 100%;
+  // height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  &__list {
+    display: flex;
+    list-style: none;
+    margin-top: 9.0625rem;
+    margin-left: 20rem;
+    margin-right: 7.18rem;
+    width: 29.75rem;
+    height: 1.9375rem;
+    justify-content: space-between;
+    padding-left: 0;
+    color: $primary-color1;
+    font-size: 1.25rem;
+    position: relative;
+    z-index: 10;
+  }
+  &__logo {
+    margin-top: 9.0625rem;
+    margin-left: 10.5625rem;
+    color: $primary-color1;
+    font-size: 1.875rem;
+    font-family: "Frank Ruhl Libre";
+  }
+  &__button {
+    margin-top: 8.25rem;
+    margin-right: 10.5rem;
+    font-size: 1.25rem;
+    width: 9.43rem;
+    height: 2.6rem;
+    text-align: center;
+    border: 1px solid $primary-color1;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 10;
+  }
+  &__bannerAndImage {
+    display: flex;
+    flex-direction: row;
+  }
+  &__banner {
+    margin-top: 5.25rem;
+    margin-left: 10.5625rem;
+    width: 31.25rem;
+    height: 39.23rem;
+    z-index: 10;
+    &--heading {
+      font-size: 4.25rem;
+      line-height: 5.48rem;
+      font-weight: 900;
+      width: 31.25rem;
+      height: 16.87rem;
+      color: $primary-color1;
+      margin: 0;
+      font-family: "Frank Ruhl Libre";
+      position: relative;
+      z-index: 10;
+    }
+    &--text {
+      font-family: "Lato";
+      color: $primary-color1;
+      font-size: 1.25rem;
+      width: 25rem;
+      font-weight: 400;
+      line-height: 2.75rem;
+      position: relative;
+      z-index: 10;
+    }
+    &--button {
+      width: 18.75rem;
+      height: 6.25rem;
+      color: $primary-color3;
+      // margin-left: 10.44rem;
+      margin-top: 1.96rem;
+      background-color: $primary-color1;
+      position: relative;
+      z-index: 100;
+    }
+    &--image {
+      width: 35.62rem;
+      height: 35.62rem;
+      margin-right: 10.81rem;
+      margin-top: 5.5rem;
+      margin-left: 6.25rem;
+      position: relative;
+      z-index: 10;
+    }
+  }
+}
+
+.newThemePage {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.75rem;
+    margin-left: 19.81rem;
+    width: 54.81rem;
+    height: 10.5rem;
+    text-align: center;
+    &--heading {
+      font-family: Frank Ruhl Libre;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 3.75rem;
+      color: $primary-color1;
+    }
+    &--text {
+      font-family: "Lato";
+      margin-top: 3rem;
+      font-weight: 400;
+      font-size: 1.125rem;
+      color: $primary-color1;
+    }
+  }
+  &__banner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.25rem;
+    margin-left: 10.5625rem;
+    margin-right: 0;
+    width: 83.93rem;
+    &--cat {
+      width: 547.89px;
+      height: 400px;
+      margin-left: 0;
+    }
+    &--man {
+      width: 547.89px;
+      height: 400px;
+      margin-right: 8.44rem;
+      margin-left: 7.18rem;
+      z-index: 10;
+    }
+    &--cornerRight {
+      position: absolute;
+      width: 489px;
+      height: 491px;
+      left: 1023px;
+      top: 1322px;
+
+      background: linear-gradient(
+        180deg,
+        rgba(211, 161, 126, 0) 0%,
+        #d3a17e 100%
+      );
+    }
+    &--cornerLeft {
+      position: absolute;
+      width: 489px;
+      height: 484px;
+      left: 0px;
+      top: 2159px;
+
+      background: linear-gradient(
+        180deg,
+        rgba(211, 161, 126, 0) 0%,
+        #d3a17e 100%
+      );
+    }
+    &--content {
+      display: flex;
+      flex-direction: row;
+      margin-left: 10.56rem;
+      margin-top: 8.18rem;
+    }
+    &--para {
+      display: flex;
+      flex-direction: column;
+      margin-left: 2.68rem;
+      width: 516px;
+      height: 438.75px;
+    }
+    &--heading {
+      font-family: "Frank Ruhl Libre";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 77px;
+      color: $primary-color1;
+    }
+    &--text {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.25rem;
+      line-height: 2.75rem;
+      color: $primary-color1;
+    }
+    &--europe {
+      width: 31.81rem;
+      height: 38.25rem;
+      margin-left: 0;
+      position: relative;
+      z-index: 5;
+    }
+  }
+  &__highlight {
+    width: 775px;
+    height: 170px;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10rem;
+    margin-left: -13rem;
+    background-color: $primary-color3;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+    &--content1 {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid $primary-color1;
+      width: 175px;
+      padding-left: 2.6rem;
+      margin-top: 2.6rem;
+      margin-bottom: 2.6rem;
+      padding-right: 2.6rem;
+      text-align: center;
+      color: $primary-color1;
+    }
+    &--content2 {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid $primary-color1;
+      width: 175px;
+      padding-left: 2.6rem;
+      margin-top: 2.6rem;
+      margin-bottom: 2.6rem;
+      padding-right: 2.6rem;
+      text-align: center;
+      color: $primary-color1;
+    }
+    &--content3 {
+      display: flex;
+      flex-direction: column;
+      // border-right: 1px solid $primary-color1;
+      width: 175px;
+      padding-left: 2.6rem;
+      margin-top: 2.6rem;
+      margin-bottom: 2.6rem;
+      padding-right: 2.6rem;
+      text-align: center;
+      color: $primary-color1;
+    }
+  }
+  &__squareImageMiddle {
+    position: absolute;
+    width: 161px;
+    height: 137px;
+    left: 565px;
+    top: 1777px;
+  }
+  &__squareImageRight {
+    position: absolute;
+    width: 161px;
+    height: 137px;
+    left: 1283px;
+    top: 1640px;
+  }
+}

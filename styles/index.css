@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;900&family=Lato:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+}
+
+.bestThemePage {
+  background-color: #eeddcc;
+  height: 61.375rem;
+  margin: 0;
+}
+.bestThemePage__squareImageLeft {
+  position: absolute;
+  top: 14.625rem;
+  left: -1.4375rem;
+}
+.bestThemePage__squareImageMiddle {
+  position: absolute;
+  left: 712px;
+  top: 780px;
+}
+.bestThemePage__squareImageRight {
+  position: absolute;
+  left: 1310px;
+  top: 326px;
+  z-index: 10;
+}
+.bestThemePage__cornerTopRight {
+  height: 30.6875rem;
+  width: 30.6875rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(211, 161, 126, 0) 0%, #d3a17e 100%);
+}
+.bestThemePage__cornerLeftBottom {
+  height: 30.6875rem;
+  width: 30.6875rem;
+  position: absolute;
+  left: 2px;
+  top: 491px;
+  background: linear-gradient(180deg, rgba(211, 161, 126, 0) 0%, #d3a17e 100%);
+  z-index: 1;
+}
+
+.bestTheme {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.bestTheme__list {
+  display: flex;
+  list-style: none;
+  margin-top: 9.0625rem;
+  margin-left: 20rem;
+  margin-right: 7.18rem;
+  width: 29.75rem;
+  height: 1.9375rem;
+  justify-content: space-between;
+  padding-left: 0;
+  color: #34251F;
+  font-size: 1.25rem;
+  position: relative;
+  z-index: 10;
+}
+.bestTheme__logo {
+  margin-top: 9.0625rem;
+  margin-left: 10.5625rem;
+  color: #34251F;
+  font-size: 1.875rem;
+  font-family: "Frank Ruhl Libre";
+}
+.bestTheme__button {
+  margin-top: 8.25rem;
+  margin-right: 10.5rem;
+  font-size: 1.25rem;
+  width: 9.43rem;
+  height: 2.6rem;
+  text-align: center;
+  border: 1px solid #34251F;
+  padding-top: 1rem;
+  position: relative;
+  z-index: 10;
+}
+.bestTheme__bannerAndImage {
+  display: flex;
+  flex-direction: row;
+}
+.bestTheme__banner {
+  margin-top: 5.25rem;
+  margin-left: 10.5625rem;
+  width: 31.25rem;
+  height: 39.23rem;
+  z-index: 10;
+}
+.bestTheme__banner--heading {
+  font-size: 4.25rem;
+  line-height: 5.48rem;
+  font-weight: 900;
+  width: 31.25rem;
+  height: 16.87rem;
+  color: #34251F;
+  margin: 0;
+  font-family: "Frank Ruhl Libre";
+  position: relative;
+  z-index: 10;
+}
+.bestTheme__banner--text {
+  font-family: "Lato";
+  color: #34251F;
+  font-size: 1.25rem;
+  width: 25rem;
+  font-weight: 400;
+  line-height: 2.75rem;
+  position: relative;
+  z-index: 10;
+}
+.bestTheme__banner--button {
+  width: 18.75rem;
+  height: 6.25rem;
+  color: #FFFFFF;
+  margin-top: 1.96rem;
+  background-color: #34251F;
+  position: relative;
+  z-index: 100;
+}
+.bestTheme__banner--image {
+  width: 35.62rem;
+  height: 35.62rem;
+  margin-right: 10.81rem;
+  margin-top: 5.5rem;
+  margin-left: 6.25rem;
+  position: relative;
+  z-index: 10;
+}
+
+.newThemePage__header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.75rem;
+  margin-left: 19.81rem;
+  width: 54.81rem;
+  height: 10.5rem;
+  text-align: center;
+}
+.newThemePage__header--heading {
+  font-family: Frank Ruhl Libre;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.75rem;
+  color: #34251F;
+}
+.newThemePage__header--text {
+  font-family: "Lato";
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #34251F;
+}
+.newThemePage__banner {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5.25rem;
+  margin-left: 10.5625rem;
+  margin-right: 0;
+  width: 83.93rem;
+}
+.newThemePage__banner--cat {
+  width: 547.89px;
+  height: 400px;
+  margin-left: 0;
+}
+.newThemePage__banner--man {
+  width: 547.89px;
+  height: 400px;
+  margin-right: 8.44rem;
+  margin-left: 7.18rem;
+  z-index: 10;
+}
+.newThemePage__banner--cornerRight {
+  position: absolute;
+  width: 489px;
+  height: 491px;
+  left: 1023px;
+  top: 1322px;
+  background: linear-gradient(180deg, rgba(211, 161, 126, 0) 0%, #d3a17e 100%);
+}
+.newThemePage__banner--cornerLeft {
+  position: absolute;
+  width: 489px;
+  height: 484px;
+  left: 0px;
+  top: 2159px;
+  background: linear-gradient(180deg, rgba(211, 161, 126, 0) 0%, #d3a17e 100%);
+}
+.newThemePage__banner--content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10.56rem;
+  margin-top: 8.18rem;
+}
+.newThemePage__banner--para {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.68rem;
+  width: 516px;
+  height: 438.75px;
+}
+.newThemePage__banner--heading {
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 77px;
+  color: #34251F;
+}
+.newThemePage__banner--text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.75rem;
+  color: #34251F;
+}
+.newThemePage__banner--europe {
+  width: 31.81rem;
+  height: 38.25rem;
+  margin-left: 0;
+  position: relative;
+  z-index: 5;
+}
+.newThemePage__highlight {
+  width: 775px;
+  height: 170px;
+  margin-right: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10rem;
+  margin-left: -13rem;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 10;
+}
+.newThemePage__highlight--content1 {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #34251F;
+  width: 175px;
+  padding-left: 2.6rem;
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  padding-right: 2.6rem;
+  text-align: center;
+  color: #34251F;
+}
+.newThemePage__highlight--content2 {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #34251F;
+  width: 175px;
+  padding-left: 2.6rem;
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  padding-right: 2.6rem;
+  text-align: center;
+  color: #34251F;
+}
+.newThemePage__highlight--content3 {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  padding-left: 2.6rem;
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+  padding-right: 2.6rem;
+  text-align: center;
+  color: #34251F;
+}
+.newThemePage__squareImageMiddle {
+  position: absolute;
+  width: 161px;
+  height: 137px;
+  left: 565px;
+  top: 1777px;
+}
+.newThemePage__squareImageRight {
+  position: absolute;
+  width: 161px;
+  height: 137px;
+  left: 1283px;
+  top: 1640px;
+}/*# sourceMappingURL=index.css.map */
