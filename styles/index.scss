@@ -72,13 +72,14 @@
     font-size: 1.25rem;
     position: relative;
     z-index: 10;
+    font-family: "Lato";
   }
   &__logo {
     margin-top: 9.0625rem;
     margin-left: 10.5625rem;
     color: $primary-color1;
     font-size: 1.875rem;
-    font-family: "Frank Ruhl Libre";
+    font-family: "Lato";
   }
   &__button {
     margin-top: 8.25rem;
@@ -91,6 +92,8 @@
     padding-top: 1rem;
     position: relative;
     z-index: 10;
+    cursor: pointer;
+    font-family: "Lato";
   }
   &__bannerAndImage {
     display: flex;
@@ -133,6 +136,8 @@
       background-color: $primary-color1;
       position: relative;
       z-index: 100;
+      cursor: pointer;
+      font-family: "Lato";
     }
     &--image {
       width: 35.62rem;

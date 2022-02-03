@@ -62,13 +62,14 @@
   font-size: 1.25rem;
   position: relative;
   z-index: 10;
+  font-family: "Lato";
 }
 .bestTheme__logo {
   margin-top: 9.0625rem;
   margin-left: 10.5625rem;
   color: #34251F;
   font-size: 1.875rem;
-  font-family: "Frank Ruhl Libre";
+  font-family: "Lato";
 }
 .bestTheme__button {
   margin-top: 8.25rem;
@@ -81,6 +82,8 @@
   padding-top: 1rem;
   position: relative;
   z-index: 10;
+  cursor: pointer;
+  font-family: "Lato";
 }
 .bestTheme__bannerAndImage {
   display: flex;
@@ -123,6 +126,8 @@
   background-color: #34251F;
   position: relative;
   z-index: 100;
+  cursor: pointer;
+  font-family: "Lato";
 }
 .bestTheme__banner--image {
   width: 35.62rem;
